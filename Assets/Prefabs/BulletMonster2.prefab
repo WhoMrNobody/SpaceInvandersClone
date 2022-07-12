@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7078813667492527072}
   - component: {fileID: 7078813667492527074}
   - component: {fileID: 7078813667492527075}
-  - component: {fileID: -6709869721402881126}
+  - component: {fileID: -7402362228674639733}
+  - component: {fileID: 334052947657779916}
   m_Layer: 0
   m_Name: BulletMonster2
   m_TagString: Untagged
@@ -124,7 +125,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.18
---- !u!114 &-6709869721402881126
+--- !u!114 &-7402362228674639733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,7 +134,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 7078813667492527071}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0da1314f796f8034cb9dd883566424cf, type: 3}
+  m_Script: {fileID: 11500000, guid: ef61eeaf9b2a54742b93c8aa32a7365a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 0, y: -4}
+  speed: 10
+--- !u!114 &334052947657779916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7078813667492527071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c5db3f839e1aa4f8631a8005c2a2fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
